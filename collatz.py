@@ -18,7 +18,7 @@ plt.subplots_adjust(bottom=0.25)
 
 # Add a slider for the input number
 slider_ax = plt.axes([0.1, 0.1, 0.8, 0.03])
-slider = Slider(slider_ax, 'Number', 1, 100, valinit=1, valstep=1, valfmt='%0.0f')
+slider = Slider(slider_ax, 'Number', 1, 1000, valinit=1, valstep=1, valfmt='%0.0f')
 
 # Function to update the plot when the slider is moved
 def update(val):
